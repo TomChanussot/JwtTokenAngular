@@ -30,10 +30,10 @@
     "max-classes-per-file": false,
     "max-line-length": [
       true,
-      140
+      180
     ],
     "member-ordering": [
-      true,
+      false,
       {
         "order": [
           "static-field",

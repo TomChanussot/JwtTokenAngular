@@ -1,0 +1,67 @@
+.loginPage {
+  width: 25%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.connectionForm {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  background-color: #84a6ac;
+}
+
+.connectionForm input {
+  width: 12rem;
+  margin: 0.5rem auto auto;
+  padding: 0.3rem;
+}
+
+.connectionButton {
+  width: 6rem;
+  margin: 1rem auto auto;
+  padding: 0.3rem;
+  cursor: pointer;
+  background-color: limegreen;
+  border-radius: 0.2rem;
+}
+
+.connectionButton:hover {
+  background-color: yellowgreen;
+}
+
+.jwtToken {
+  margin-top: 1rem;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.testTokenButton {
+  width: 6rem;
+  margin: 1rem auto auto;
+  padding: 0.3rem;
+  cursor: pointer;
+  background-color: #008fcd;
+  border-radius: 0.2rem;
+}
+
+.testTokenButton:hover {
+  background-color: #00a9cd;
+}
+
+.infoMessage {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  background-color: #95ecad;
+}
+
+.errorMessage {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  background-color: #ecbdbd;
+}

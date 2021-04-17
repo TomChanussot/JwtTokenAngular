@@ -10,7 +10,7 @@ import {API_URL, JWT_ACCESS_TOKEN_KEY} from '../constants/constants';
 })
 export class AuthenticationService {
 
-  jwtAccessTokenSubject = new BehaviorSubject<string | null>(null);
+  private jwtAccessTokenSubject = new BehaviorSubject<string | null>(null);
   jwtAccessToken$ = this.jwtAccessTokenSubject.asObservable();
 
   constructor(private http: HttpClient) { }

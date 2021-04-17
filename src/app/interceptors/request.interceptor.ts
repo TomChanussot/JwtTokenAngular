@@ -59,7 +59,6 @@ export class RequestInterceptor implements HttpInterceptor {
         switchMap((response: AuthenticationResponse) => {
           this.isRefreshingJwtInProgress = false;
           this.newJwtTokenSubject.next(response.jwtAccessToken);
-          this.authenticationService.jwtAccessTokenSubject.next(response.jwtAccessToken); // refresh on screen
           return next.handle(this.addJwtAuthorizationHeader(request, response.jwtAccessToken)); // repeat failed request with new token
         })
       );

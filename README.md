@@ -1,3 +1,2 @@
 # AngularJwt
-
-This project is an example for using JWT token as an access token and also managing refresh token.
+Angular front end project for authentication with JWT access token. It also manage JWT refresh token in HttpOnly cookie.
